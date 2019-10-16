@@ -1,15 +1,5 @@
 
-/*
-Name:        lightBot.ino
-Created:     17/01/2018
-Author:      Stefano Ledda <shurillu@tiscalinet.it>
-Description: a simple example that do:
-             1) parse incoming messages
-             2) if "LIGHT ON" message is received, turn on the onboard LED
-             3) if "LIGHT OFF" message is received, turn off the onboard LED
-             4) otherwise, reply to sender with a welcome message
 
-*/
 #include "CTBot.h"
 CTBot myBot;
 
